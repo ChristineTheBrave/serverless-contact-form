@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Contact Form Microservice</title>
+  <style>
+    /* It's not pretty, but it'll do :) */
+    input,
+    textarea {
+      display: block;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="serverless-contact-form">
+    <input type="text" name="email" placeholder="Email Address" class="form-email">
+    <input type="text" name="subject" placeholder="Subject" class="form-subject">
+    <textarea rows="5" cols="40" name="message" placeholder="Your message here..." class="form-message"></textarea>
+    <input type="submit" name="submit" value="Submit" class="form-submit">
+  </form>
+
+  <script src='main.js'></script>
+</body>
+
+</html>
